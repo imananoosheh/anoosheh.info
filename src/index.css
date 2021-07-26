@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+ /* The animation code */
+ @keyframes letter {
+  from {opacity: 100%;}
+  to {opacity: 0%;}
+}
+
+/* The element to apply the animation to */
+.letter {
+  animation-name: letter;
+  animation-duration: 2s;
+} 
